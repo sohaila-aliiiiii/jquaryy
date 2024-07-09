@@ -1,0 +1,117 @@
+.home
+{
+    height: 100vh;
+    background-image:linear-gradient(rgb(199, 0, 0, .4),rgb(199, 0, 0, .4)) ,url(../image/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    
+}
+.home h2{
+    font-family: "Labrada", serif;
+    /* font-optical-sizing: auto; */
+    font-style: normal;
+    color: white;
+    font-size: 64px;
+}
+.layer
+{
+    position: fixed;
+    left: 0;
+    top: 0%;
+    
+}
+.nav
+{
+    background-color: #111111;
+    height: 100vh;
+    width:250px; 
+    
+}
+.nav i
+{
+   cursor: pointer;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 20px 0;
+    transition: all .5s;
+    
+    
+}
+.open
+{
+    cursor: pointer;
+    
+}
+.nav a:hover
+{
+    color: crimson;
+}
+.slids
+{ 
+    h3{
+        background-color:#E68285 ;
+        color: white;
+        padding: 20px;
+       
+        margin: 0;
+    }
+    p{
+        background-color: #CCCCCC;
+        /* display: none; */
+       
+        margin: 0;
+    }
+}
+.accordion-contant
+{
+    display: none;
+}
+.accordion-contant.open
+{
+display: block;
+}
+
+.event
+{
+    background-image:linear-gradient(rgb(199, 0, 0, .4),rgb(199, 0, 0, .4)) ,url(../image/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+}
+.event h3
+{
+    margin-top: 48px;
+    
+    padding: 48px;
+    border: 2px solid white;
+}
+.h4
+{
+    font-weight: 800;
+}
+.icons span{
+     
+    border: 2px solid rgba(73, 25, 25, 0.548);
+    text-align: center;
+    padding: 15px;
+
+
+}
+.icons span:hover
+{
+    background-color: crimson;
+    color: white;
+}
+.spa
+{
+    color: crimson;
+}
+.BUT
+{
+    color: white;
+    background-color: crimson;
+}
